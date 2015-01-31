@@ -1,0 +1,196 @@
+﻿Build started 10/26/2014 4:45:18 PM.
+     1>Project "C:\Users\Rajat\Desktop\CSE598 CG\Assignments\assignment 3\Assignment3\Assignment3 - Solving\Assignment3\TemplateProject.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(942,5): warning MSB8027: Two or more files with the name of main.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ilmbase-2.2.0\HalfTest\main.cpp, ilmbase-2.2.0\IexTest\main.cpp, ilmbase-2.2.0\ImathTest\main.cpp, main.cpp.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Rajat\Desktop\CSE598 CG\Assignments\assignment 3\Assignment3\Assignment3 - Solving\Assignment3\ilmbase-2.2.0" /I"C:\Users\Rajat\Desktop\CSE598 CG\Assignments\assignment 3\Assignment3\Assignment3 - Solving\Assignment3\ilmbase-2.2.0\Imath" /Ifreeglut/include /Iglew/include /Icwc/include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D FREEGLUT_STATIC /D GLEW_STATIC /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt glew\source\glew.c freeglut\source\freeglut_callbacks.c freeglut\source\freeglut_cursor.c freeglut\source\freeglut_display.c freeglut\source\freeglut_ext.c freeglut\source\freeglut_font.c freeglut\source\freeglut_font_data.c freeglut\source\freeglut_gamemode.c freeglut\source\freeglut_geometry.c freeglut\source\freeglut_glutfont_definitions.c freeglut\source\freeglut_init.c freeglut\source\freeglut_joystick.c freeglut\source\freeglut_main.c freeglut\source\freeglut_menu.c freeglut\source\freeglut_misc.c freeglut\source\freeglut_overlay.c freeglut\source\freeglut_state.c freeglut\source\freeglut_stroke_mono_roman.c freeglut\source\freeglut_stroke_roman.c freeglut\source\freeglut_structure.c freeglut\source\freeglut_teapot.c freeglut\source\freeglut_videoresize.c freeglut\source\freeglut_window.c stb_image.c
+         stb_image.c
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving\assignment3\stb_image.c(559): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving\assignment3\stb_image.c(626): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving\assignment3\stb_image.c(664): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving\assignment3\stb_image.c(4566): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+         freeglut_window.c
+         fgSetupPixelFormat(): there is still some work to do here!
+         freeglut_videoresize.c
+         freeglut_teapot.c
+         freeglut_structure.c
+         freeglut_stroke_roman.c
+         freeglut_stroke_mono_roman.c
+         freeglut_state.c
+         freeglut_overlay.c
+         freeglut_misc.c
+         freeglut_menu.c
+         freeglut_main.c
+         freeglut_joystick.c
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving\assignment3\freeglut\source\freeglut_joystick.c(1002): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving\assignment3\freeglut\source\freeglut_joystick.c(1012): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving\assignment3\freeglut\source\freeglut_joystick.c(1020): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving\assignment3\freeglut\source\freeglut_joystick.c(1249): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(195) : see declaration of 'strncpy'
+         freeglut_init.c
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving\assignment3\freeglut\source\freeglut_init.c(520): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(462) : see declaration of 'getenv'
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving\assignment3\freeglut\source\freeglut_init.c(524): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving\assignment3\freeglut\source\freeglut_init.c(533): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(462) : see declaration of 'getenv'
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving\assignment3\freeglut\source\freeglut_init.c(713): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(204) : see declaration of 'strtok'
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving\assignment3\freeglut\source\freeglut_init.c(883): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(204) : see declaration of 'strtok'
+         freeglut_glutfont_definitions.c
+         freeglut_geometry.c
+         freeglut_gamemode.c
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving\assignment3\freeglut\source\freeglut_gamemode.c(394): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving\assignment3\freeglut\source\freeglut_gamemode.c(395): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving\assignment3\freeglut\source\freeglut_gamemode.c(396): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving\assignment3\freeglut\source\freeglut_gamemode.c(397): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving\assignment3\freeglut\source\freeglut_gamemode.c(398): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving\assignment3\freeglut\source\freeglut_gamemode.c(399): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving\assignment3\freeglut\source\freeglut_gamemode.c(400): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+         freeglut_font_data.c
+         freeglut_font.c
+         freeglut_ext.c
+         Generating Code...
+         Compiling...
+         freeglut_display.c
+         freeglut_cursor.c
+         freeglut_callbacks.c
+         glew.c
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Rajat\Desktop\CSE598 CG\Assignments\assignment 3\Assignment3\Assignment3 - Solving\Assignment3\ilmbase-2.2.0" /I"C:\Users\Rajat\Desktop\CSE598 CG\Assignments\assignment 3\Assignment3\Assignment3 - Solving\Assignment3\ilmbase-2.2.0\Imath" /Ifreeglut/include /Iglew/include /Icwc/include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D FREEGLUT_STATIC /D GLEW_STATIC /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt cwc\source\glApplication.cpp cwc\source\glsl.cpp cwc\source\glutwindow.cpp cwc\source\glWindow.cpp "ilmbase-2.2.0\HalfTest\main.cpp" "ilmbase-2.2.0\HalfTest\testArithmetic.cpp" "ilmbase-2.2.0\HalfTest\testBitPatterns.cpp" "ilmbase-2.2.0\HalfTest\testClassification.cpp" "ilmbase-2.2.0\HalfTest\testError.cpp" "ilmbase-2.2.0\HalfTest\testFunction.cpp" "ilmbase-2.2.0\HalfTest\testLimits.cpp" "ilmbase-2.2.0\HalfTest\testSize.cpp" "ilmbase-2.2.0\Half\eLut.cpp" "ilmbase-2.2.0\Half\half.cpp" "ilmbase-2.2.0\Half\toFloat.cpp" "ilmbase-2.2.0\IexMath\IexMathFloatExc.cpp" "ilmbase-2.2.0\IexMath\IexMathFpu.cpp" "ilmbase-2.2.0\IexTest\main.cpp" "ilmbase-2.2.0\IexTest\testBaseExc.cpp" "ilmbase-2.2.0\Iex\IexBaseExc.cpp" "ilmbase-2.2.0\Iex\IexThrowErrnoExc.cpp" "ilmbase-2.2.0\IlmThread\IlmThread.cpp" "ilmbase-2.2.0\IlmThread\IlmThreadMutex.cpp" "ilmbase-2.2.0\IlmThread\IlmThreadMutexPosix.cpp" "ilmbase-2.2.0\IlmThread\IlmThreadMutexWin32.cpp" "ilmbase-2.2.0\IlmThread\IlmThreadPool.cpp" "ilmbase-2.2.0\IlmThread\IlmThreadPosix.cpp" "ilmbase-2.2.0\IlmThread\IlmThreadSemaphore.cpp" "ilmbase-2.2.0\IlmThread\IlmThreadSemaphorePosix.cpp" "ilmbase-2.2.0\IlmThread\IlmThreadSemaphorePosixCompat.cpp" "ilmbase-2.2.0\IlmThread\IlmThreadSemaphoreWin32.cpp" "ilmbase-2.2.0\IlmThread\IlmThreadWin32.cpp" "ilmbase-2.2.0\ImathTest\main.cpp" "ilmbase-2.2.0\ImathTest\testBox.cpp" "ilmbase-2.2.0\ImathTest\testBoxAlgo.cpp" "ilmbase-2.2.0\ImathTest\testColor.cpp" "ilmbase-2.2.0\ImathTest\testExtractEuler.cpp" "ilmbase-2.2.0\ImathTest\testExtractSHRT.cpp" "ilmbase-2.2.0\ImathTest\testFrustum.cpp" "ilmbase-2.2.0\ImathTest\testFrustumTest.cpp" "ilmbase-2.2.0\ImathTest\testFun.cpp" "ilmbase-2.2.0\ImathTest\testInvert.cpp" "ilmbase-2.2.0\ImathTest\testJacobiEigenSolver.cpp" "ilmbase-2.2.0\ImathTest\testLineAlgo.cpp" "ilmbase-2.2.0\ImathTest\testMatrix.cpp" "ilmbase-2.2.0\ImathTest\testMiscMatrixAlgo.cpp" "ilmbase-2.2.0\ImathTest\testProcrustes.cpp" "ilmbase-2.2.0\ImathTest\testQuat.cpp" "ilmbase-2.2.0\ImathTest\testQuatSetRotation.cpp" "ilmbase-2.2.0\ImathTest\testQuatSlerp.cpp" "ilmbase-2.2.0\ImathTest\testRandom.cpp" "ilmbase-2.2.0\ImathTest\testRoots.cpp" "ilmbase-2.2.0\ImathTest\testShear.cpp" "ilmbase-2.2.0\ImathTest\testTinySVD.cpp" "ilmbase-2.2.0\ImathTest\testVec.cpp" "ilmbase-2.2.0\Imath\ImathBox.cpp" "ilmbase-2.2.0\Imath\ImathColorAlgo.cpp" "ilmbase-2.2.0\Imath\ImathFun.cpp" "ilmbase-2.2.0\Imath\ImathMatrixAlgo.cpp" "ilmbase-2.2.0\Imath\ImathRandom.cpp" "ilmbase-2.2.0\Imath\ImathShear.cpp" "ilmbase-2.2.0\Imath\ImathVec.cpp" main.cpp
+         main.cpp
+         ImathColorAlgo.cpp
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving\assignment3\ilmbase-2.2.0\imath\imathcolor.h(48): fatal error C1083: Cannot open include file: 'half.h': No such file or directory
+         testVec.cpp
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving\assignment3\ilmbase-2.2.0\imathtest\testvec.cpp(36): fatal error C1083: Cannot open include file: 'testVec.h': No such file or directory
+         testShear.cpp
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving\assignment3\ilmbase-2.2.0\imathtest\testshear.cpp(37): fatal error C1083: Cannot open include file: 'testShear.h': No such file or directory
+         testRoots.cpp
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving\assignment3\ilmbase-2.2.0\imathtest\testroots.cpp(37): fatal error C1083: Cannot open include file: 'testRoots.h': No such file or directory
+         testRandom.cpp
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving\assignment3\ilmbase-2.2.0\imathtest\testrandom.cpp(37): fatal error C1083: Cannot open include file: 'testRandom.h': No such file or directory
+         testQuatSlerp.cpp
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving\assignment3\ilmbase-2.2.0\imathtest\testquatslerp.cpp(36): fatal error C1083: Cannot open include file: 'testQuatSlerp.h': No such file or directory
+         testQuatSetRotation.cpp
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving\assignment3\ilmbase-2.2.0\imathtest\testquatsetrotation.cpp(36): fatal error C1083: Cannot open include file: 'testQuatSetRotation.h': No such file or directory
+         testQuat.cpp
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving\assignment3\ilmbase-2.2.0\imathtest\testquat.cpp(36): fatal error C1083: Cannot open include file: 'testQuat.h': No such file or directory
+         testMiscMatrixAlgo.cpp
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving\assignment3\ilmbase-2.2.0\imathtest\testmiscmatrixalgo.cpp(36): fatal error C1083: Cannot open include file: 'testMiscMatrixAlgo.h': No such file or directory
+         testMatrix.cpp
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving\assignment3\ilmbase-2.2.0\imathtest\testmatrix.cpp(37): fatal error C1083: Cannot open include file: 'testMatrix.h': No such file or directory
+         testLineAlgo.cpp
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving\assignment3\ilmbase-2.2.0\imathtest\testlinealgo.cpp(36): fatal error C1083: Cannot open include file: 'testLineAlgo.h': No such file or directory
+         testInvert.cpp
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving\assignment3\ilmbase-2.2.0\imathtest\testinvert.cpp(37): fatal error C1083: Cannot open include file: 'testInvert.h': No such file or directory
+         testFun.cpp
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving\assignment3\ilmbase-2.2.0\imathtest\testfun.cpp(36): fatal error C1083: Cannot open include file: 'testFun.h': No such file or directory
+         testFrustumTest.cpp
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving\assignment3\ilmbase-2.2.0\imathtest\testfrustumtest.cpp(37): fatal error C1083: Cannot open include file: 'testFrustumTest.h': No such file or directory
+         testFrustum.cpp
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving\assignment3\ilmbase-2.2.0\imathtest\testfrustum.cpp(37): fatal error C1083: Cannot open include file: 'testFrustum.h': No such file or directory
+         testExtractSHRT.cpp
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving\assignment3\ilmbase-2.2.0\imathtest\testextractshrt.cpp(36): fatal error C1083: Cannot open include file: 'testExtractSHRT.h': No such file or directory
+         testExtractEuler.cpp
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving\assignment3\ilmbase-2.2.0\imathtest\testextracteuler.cpp(36): fatal error C1083: Cannot open include file: 'testExtractEuler.h': No such file or directory
+         testColor.cpp
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving\assignment3\ilmbase-2.2.0\imathtest\testcolor.cpp(37): fatal error C1083: Cannot open include file: 'testColor.h': No such file or directory
+         testBoxAlgo.cpp
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving\assignment3\ilmbase-2.2.0\imathtest\testboxalgo.cpp(36): fatal error C1083: Cannot open include file: 'testBoxAlgo.h': No such file or directory
+         Generating Code...
+         Compiling...
+         testBox.cpp
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving\assignment3\ilmbase-2.2.0\imathtest\testbox.cpp(36): fatal error C1083: Cannot open include file: 'testBoxAlgo.h': No such file or directory
+         main.cpp
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving\assignment3\ilmbase-2.2.0\imathtest\main.cpp(37): fatal error C1083: Cannot open include file: 'testVec.h': No such file or directory
+         IlmThreadWin32.cpp
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving\assignment3\ilmbase-2.2.0\ilmthread\ilmthread.h(93): fatal error C1083: Cannot open include file: 'IlmBaseConfig.h': No such file or directory
+         IlmThreadSemaphoreWin32.cpp
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving\assignment3\ilmbase-2.2.0\ilmthread\ilmthreadsemaphore.h(45): fatal error C1083: Cannot open include file: 'IlmBaseConfig.h': No such file or directory
+         IlmThreadSemaphorePosixCompat.cpp
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving\assignment3\ilmbase-2.2.0\ilmthread\ilmthreadsemaphoreposixcompat.cpp(43): fatal error C1083: Cannot open include file: 'IlmBaseConfig.h': No such file or directory
+         IlmThreadSemaphorePosix.cpp
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving\assignment3\ilmbase-2.2.0\ilmthread\ilmthreadsemaphoreposix.cpp(42): fatal error C1083: Cannot open include file: 'IlmBaseConfig.h': No such file or directory
+         IlmThreadSemaphore.cpp
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving\assignment3\ilmbase-2.2.0\ilmthread\ilmthreadsemaphore.cpp(42): fatal error C1083: Cannot open include file: 'IlmBaseConfig.h': No such file or directory
+         IlmThreadPosix.cpp
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving\assignment3\ilmbase-2.2.0\ilmthread\ilmthreadposix.cpp(42): fatal error C1083: Cannot open include file: 'IlmBaseConfig.h': No such file or directory
+         IlmThreadPool.cpp
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving\assignment3\ilmbase-2.2.0\ilmthread\ilmthread.h(93): fatal error C1083: Cannot open include file: 'IlmBaseConfig.h': No such file or directory
+         IlmThreadMutexWin32.cpp
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving\assignment3\ilmbase-2.2.0\ilmthread\ilmthreadmutex.h(70): fatal error C1083: Cannot open include file: 'IlmBaseConfig.h': No such file or directory
+         IlmThreadMutexPosix.cpp
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving\assignment3\ilmbase-2.2.0\ilmthread\ilmthreadmutexposix.cpp(42): fatal error C1083: Cannot open include file: 'IlmBaseConfig.h': No such file or directory
+         IlmThreadMutex.cpp
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving\assignment3\ilmbase-2.2.0\ilmthread\ilmthreadmutex.cpp(42): fatal error C1083: Cannot open include file: 'IlmBaseConfig.h': No such file or directory
+         IlmThread.cpp
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving\assignment3\ilmbase-2.2.0\ilmthread\ilmthread.cpp(42): fatal error C1083: Cannot open include file: 'IlmBaseConfig.h': No such file or directory
+         IexBaseExc.cpp
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving\assignment3\ilmbase-2.2.0\iex\iexbaseexc.cpp(153): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(462) : see declaration of 'getenv'
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving\assignment3\ilmbase-2.2.0\iex\iexbaseexc.cpp(154): error C3861: '__builtin_trap': identifier not found
+         testBaseExc.cpp
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving\assignment3\ilmbase-2.2.0\iextest\testbaseexc.cpp(37): fatal error C1083: Cannot open include file: 'testBaseExc.h': No such file or directory
+         main.cpp
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving\assignment3\ilmbase-2.2.0\iextest\main.cpp(37): fatal error C1083: Cannot open include file: 'testBaseExc.h': No such file or directory
+         IexMathFpu.cpp
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving\assignment3\ilmbase-2.2.0\iexmath\iexmathieeeexc.h(45): fatal error C1083: Cannot open include file: 'IexNamespace.h': No such file or directory
+         IexMathFloatExc.cpp
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving\assignment3\ilmbase-2.2.0\iexmath\iexmathfloatexc.cpp(43): fatal error C1083: Cannot open include file: 'IexMathFloatExc.h': No such file or directory
+         half.cpp
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving\assignment3\ilmbase-2.2.0\half\half.cpp(57): fatal error C1083: Cannot open include file: 'toFloat.h': No such file or directory
+         testSize.cpp
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving\assignment3\ilmbase-2.2.0\halftest\testsize.cpp(1): fatal error C1083: Cannot open include file: 'testSize.h': No such file or directory
+         Generating Code...
+         Compiling...
+         testLimits.cpp
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving\assignment3\ilmbase-2.2.0\halftest\testlimits.cpp(1): fatal error C1083: Cannot open include file: 'testLimits.h': No such file or directory
+         testFunction.cpp
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving\assignment3\ilmbase-2.2.0\halftest\testfunction.cpp(1): fatal error C1083: Cannot open include file: 'testFunction.h': No such file or directory
+         testError.cpp
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving\assignment3\ilmbase-2.2.0\halftest\testerror.cpp(1): fatal error C1083: Cannot open include file: 'testError.h': No such file or directory
+         testClassification.cpp
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving\assignment3\ilmbase-2.2.0\halftest\testclassification.cpp(1): fatal error C1083: Cannot open include file: 'testClassification.h': No such file or directory
+         testBitPatterns.cpp
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving\assignment3\ilmbase-2.2.0\halftest\testbitpatterns.cpp(1): fatal error C1083: Cannot open include file: 'testBitPatterns.h': No such file or directory
+         testArithmetic.cpp
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving\assignment3\ilmbase-2.2.0\halftest\testarithmetic.cpp(1): fatal error C1083: Cannot open include file: 'testArithmetic.h': No such file or directory
+         main.cpp
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving\assignment3\ilmbase-2.2.0\halftest\main.cpp(1): fatal error C1083: Cannot open include file: 'testSize.h': No such file or directory
+         Generating Code...
+         Skipping... (no relevant changes detected)
+         ImathVec.cpp
+         ImathShear.cpp
+         ImathRandom.cpp
+         ImathMatrixAlgo.cpp
+         ImathFun.cpp
+         ImathBox.cpp
+         testTinySVD.cpp
+         testProcrustes.cpp
+         testJacobiEigenSolver.cpp
+         IexThrowErrnoExc.cpp
+         toFloat.cpp
+         eLut.cpp
+         glWindow.cpp
+         glutwindow.cpp
+         glsl.cpp
+         glApplication.cpp
+     1>Done Building Project "C:\Users\Rajat\Desktop\CSE598 CG\Assignments\assignment 3\Assignment3\Assignment3 - Solving\Assignment3\TemplateProject.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:13.53

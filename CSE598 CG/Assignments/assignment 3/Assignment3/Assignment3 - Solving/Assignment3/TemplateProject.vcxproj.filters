@@ -1,0 +1,608 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="glew">
+      <UniqueIdentifier>{0473b96f-9c3a-4e42-b841-23129380a862}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="glew\include">
+      <UniqueIdentifier>{0696026e-bef7-4dce-86f1-735a472e69e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="glew\source">
+      <UniqueIdentifier>{0fba53ec-2d81-4231-bb7e-024bdbf98308}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="freeglut">
+      <UniqueIdentifier>{f8383379-aa16-432a-b552-aa738ee8e475}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="freeglut\include">
+      <UniqueIdentifier>{4cec1ca8-e759-478c-9a8b-028e2dd23f20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="freeglut\source">
+      <UniqueIdentifier>{ae4023f8-9675-4f95-ac4f-53c41d9fa788}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cwc">
+      <UniqueIdentifier>{b235553b-78c8-4266-b1d1-826f6b1ec828}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cwc\include">
+      <UniqueIdentifier>{4594054f-56f8-46ba-95b5-2912264dedef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cwc\source">
+      <UniqueIdentifier>{c7fbc8d1-8ec5-404f-bc1e-86c965b5a3cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ILM">
+      <UniqueIdentifier>{27f35f48-7473-44ad-b3d1-e3dc1739beac}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="glew\include\Gl\glew.h">
+      <Filter>glew\include</Filter>
+    </ClInclude>
+    <ClInclude Include="glew\include\Gl\glxew.h">
+      <Filter>glew\include</Filter>
+    </ClInclude>
+    <ClInclude Include="glew\include\Gl\wglew.h">
+      <Filter>glew\include</Filter>
+    </ClInclude>
+    <ClInclude Include="freeglut\include\Gl\freeglut.h">
+      <Filter>freeglut\include</Filter>
+    </ClInclude>
+    <ClInclude Include="freeglut\include\Gl\freeglut_ext.h">
+      <Filter>freeglut\include</Filter>
+    </ClInclude>
+    <ClInclude Include="freeglut\include\Gl\freeglut_std.h">
+      <Filter>freeglut\include</Filter>
+    </ClInclude>
+    <ClInclude Include="freeglut\include\Gl\glut.h">
+      <Filter>freeglut\include</Filter>
+    </ClInclude>
+    <ClInclude Include="freeglut\source\freeglut_internal.h">
+      <Filter>freeglut\source</Filter>
+    </ClInclude>
+    <ClInclude Include="freeglut\source\freeglut_teapot_data.h">
+      <Filter>freeglut\source</Filter>
+    </ClInclude>
+    <ClInclude Include="cwc\include\glApplication.h">
+      <Filter>cwc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cwc\include\glsl.h">
+      <Filter>cwc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cwc\include\glutwindow.h">
+      <Filter>cwc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cwc\include\glWindow.h">
+      <Filter>cwc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\Half\half.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\Half\halfExport.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\Half\halfFunction.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\Half\halfLimits.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\Iex\Iex.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\Iex\IexBaseExc.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\Iex\IexErrnoExc.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\Iex\IexExport.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\Iex\IexForward.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\Iex\IexMacros.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\Iex\IexMathExc.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\IexMath\IexMathFloatExc.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\IexMath\IexMathFpu.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\IexMath\IexMathIeeeExc.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\Iex\IexNamespace.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\Iex\IexThrowErrnoExc.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\config\IlmBaseConfig.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\config.windows\IlmBaseConfig.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\IlmThread\IlmThread.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\IlmThread\IlmThreadExport.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\IlmThread\IlmThreadForward.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\IlmThread\IlmThreadMutex.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\IlmThread\IlmThreadNamespace.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\IlmThread\IlmThreadPool.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\IlmThread\IlmThreadSemaphore.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\Imath\ImathBox.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\Imath\ImathBoxAlgo.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\Imath\ImathColor.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\Imath\ImathColorAlgo.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\Imath\ImathEuler.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\Imath\ImathExc.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\Imath\ImathExport.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\Imath\ImathForward.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\Imath\ImathFrame.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\Imath\ImathFrustum.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\Imath\ImathFrustumTest.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\Imath\ImathFun.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\Imath\ImathGL.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\Imath\ImathGLU.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\Imath\ImathHalfLimits.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\Imath\ImathInt64.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\Imath\ImathInterval.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\Imath\ImathLimits.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\Imath\ImathLine.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\Imath\ImathLineAlgo.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\Imath\ImathMath.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\Imath\ImathMatrix.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\Imath\ImathMatrixAlgo.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\Imath\ImathNamespace.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\Imath\ImathPlane.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\Imath\ImathPlatform.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\Imath\ImathQuat.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\Imath\ImathRandom.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\Imath\ImathRoots.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\Imath\ImathShear.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\Imath\ImathSphere.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\Imath\ImathVec.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\Imath\ImathVecAlgo.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\HalfTest\testArithmetic.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\IexTest\testBaseExc.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\HalfTest\testBitPatterns.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\ImathTest\testBox.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\ImathTest\testBoxAlgo.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\HalfTest\testClassification.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\ImathTest\testColor.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\HalfTest\testError.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\ImathTest\testExtractEuler.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\ImathTest\testExtractSHRT.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\ImathTest\testFrustum.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\ImathTest\testFrustumTest.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\ImathTest\testFun.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\HalfTest\testFunction.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\ImathTest\testInvert.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\ImathTest\testJacobiEigenSolver.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\HalfTest\testLimits.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\ImathTest\testLineAlgo.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\ImathTest\testMatrix.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\ImathTest\testMiscMatrixAlgo.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\ImathTest\testProcrustes.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\ImathTest\testQuat.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\ImathTest\testQuatSetRotation.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\ImathTest\testQuatSlerp.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\ImathTest\testRandom.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\ImathTest\testRoots.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\ImathTest\testShear.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\HalfTest\testSize.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\ImathTest\testTinySVD.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+    <ClInclude Include="ilmbase-2.2.0\ImathTest\testVec.h">
+      <Filter>ILM</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="glew\source\glew.c">
+      <Filter>glew\source</Filter>
+    </ClCompile>
+    <ClCompile Include="freeglut\source\freeglut_callbacks.c">
+      <Filter>freeglut\source</Filter>
+    </ClCompile>
+    <ClCompile Include="freeglut\source\freeglut_cursor.c">
+      <Filter>freeglut\source</Filter>
+    </ClCompile>
+    <ClCompile Include="freeglut\source\freeglut_display.c">
+      <Filter>freeglut\source</Filter>
+    </ClCompile>
+    <ClCompile Include="freeglut\source\freeglut_ext.c">
+      <Filter>freeglut\source</Filter>
+    </ClCompile>
+    <ClCompile Include="freeglut\source\freeglut_font.c">
+      <Filter>freeglut\source</Filter>
+    </ClCompile>
+    <ClCompile Include="freeglut\source\freeglut_font_data.c">
+      <Filter>freeglut\source</Filter>
+    </ClCompile>
+    <ClCompile Include="freeglut\source\freeglut_gamemode.c">
+      <Filter>freeglut\source</Filter>
+    </ClCompile>
+    <ClCompile Include="freeglut\source\freeglut_geometry.c">
+      <Filter>freeglut\source</Filter>
+    </ClCompile>
+    <ClCompile Include="freeglut\source\freeglut_glutfont_definitions.c">
+      <Filter>freeglut\source</Filter>
+    </ClCompile>
+    <ClCompile Include="freeglut\source\freeglut_init.c">
+      <Filter>freeglut\source</Filter>
+    </ClCompile>
+    <ClCompile Include="freeglut\source\freeglut_joystick.c">
+      <Filter>freeglut\source</Filter>
+    </ClCompile>
+    <ClCompile Include="freeglut\source\freeglut_main.c">
+      <Filter>freeglut\source</Filter>
+    </ClCompile>
+    <ClCompile Include="freeglut\source\freeglut_menu.c">
+      <Filter>freeglut\source</Filter>
+    </ClCompile>
+    <ClCompile Include="freeglut\source\freeglut_misc.c">
+      <Filter>freeglut\source</Filter>
+    </ClCompile>
+    <ClCompile Include="freeglut\source\freeglut_overlay.c">
+      <Filter>freeglut\source</Filter>
+    </ClCompile>
+    <ClCompile Include="freeglut\source\freeglut_state.c">
+      <Filter>freeglut\source</Filter>
+    </ClCompile>
+    <ClCompile Include="freeglut\source\freeglut_stroke_mono_roman.c">
+      <Filter>freeglut\source</Filter>
+    </ClCompile>
+    <ClCompile Include="freeglut\source\freeglut_stroke_roman.c">
+      <Filter>freeglut\source</Filter>
+    </ClCompile>
+    <ClCompile Include="freeglut\source\freeglut_structure.c">
+      <Filter>freeglut\source</Filter>
+    </ClCompile>
+    <ClCompile Include="freeglut\source\freeglut_teapot.c">
+      <Filter>freeglut\source</Filter>
+    </ClCompile>
+    <ClCompile Include="freeglut\source\freeglut_videoresize.c">
+      <Filter>freeglut\source</Filter>
+    </ClCompile>
+    <ClCompile Include="freeglut\source\freeglut_window.c">
+      <Filter>freeglut\source</Filter>
+    </ClCompile>
+    <ClCompile Include="cwc\source\glApplication.cpp">
+      <Filter>cwc\source</Filter>
+    </ClCompile>
+    <ClCompile Include="cwc\source\glsl.cpp">
+      <Filter>cwc\source</Filter>
+    </ClCompile>
+    <ClCompile Include="cwc\source\glutwindow.cpp">
+      <Filter>cwc\source</Filter>
+    </ClCompile>
+    <ClCompile Include="cwc\source\glWindow.cpp">
+      <Filter>cwc\source</Filter>
+    </ClCompile>
+    <ClCompile Include="ilmbase-2.2.0\Half\eLut.cpp">
+      <Filter>ILM</Filter>
+    </ClCompile>
+    <ClCompile Include="ilmbase-2.2.0\Half\half.cpp">
+      <Filter>ILM</Filter>
+    </ClCompile>
+    <ClCompile Include="ilmbase-2.2.0\Iex\IexBaseExc.cpp">
+      <Filter>ILM</Filter>
+    </ClCompile>
+    <ClCompile Include="ilmbase-2.2.0\IexMath\IexMathFloatExc.cpp">
+      <Filter>ILM</Filter>
+    </ClCompile>
+    <ClCompile Include="ilmbase-2.2.0\IexMath\IexMathFpu.cpp">
+      <Filter>ILM</Filter>
+    </ClCompile>
+    <ClCompile Include="ilmbase-2.2.0\Iex\IexThrowErrnoExc.cpp">
+      <Filter>ILM</Filter>
+    </ClCompile>
+    <ClCompile Include="ilmbase-2.2.0\IlmThread\IlmThread.cpp">
+      <Filter>ILM</Filter>
+    </ClCompile>
+    <ClCompile Include="ilmbase-2.2.0\IlmThread\IlmThreadMutex.cpp">
+      <Filter>ILM</Filter>
+    </ClCompile>
+    <ClCompile Include="ilmbase-2.2.0\IlmThread\IlmThreadMutexPosix.cpp">
+      <Filter>ILM</Filter>
+    </ClCompile>
+    <ClCompile Include="ilmbase-2.2.0\IlmThread\IlmThreadMutexWin32.cpp">
+      <Filter>ILM</Filter>
+    </ClCompile>
+    <ClCompile Include="ilmbase-2.2.0\IlmThread\IlmThreadPool.cpp">
+      <Filter>ILM</Filter>
+    </ClCompile>
+    <ClCompile Include="ilmbase-2.2.0\IlmThread\IlmThreadPosix.cpp">
+      <Filter>ILM</Filter>
+    </ClCompile>
+    <ClCompile Include="ilmbase-2.2.0\IlmThread\IlmThreadSemaphore.cpp">
+      <Filter>ILM</Filter>
+    </ClCompile>
+    <ClCompile Include="ilmbase-2.2.0\IlmThread\IlmThreadSemaphorePosix.cpp">
+      <Filter>ILM</Filter>
+    </ClCompile>
+    <ClCompile Include="ilmbase-2.2.0\IlmThread\IlmThreadSemaphorePosixCompat.cpp">
+      <Filter>ILM</Filter>
+    </ClCompile>
+    <ClCompile Include="ilmbase-2.2.0\IlmThread\IlmThreadSemaphoreWin32.cpp">
+      <Filter>ILM</Filter>
+    </ClCompile>
+    <ClCompile Include="ilmbase-2.2.0\IlmThread\IlmThreadWin32.cpp">
+      <Filter>ILM</Filter>
+    </ClCompile>
+    <ClCompile Include="ilmbase-2.2.0\Imath\ImathBox.cpp">
+      <Filter>ILM</Filter>
+    </ClCompile>
+    <ClCompile Include="ilmbase-2.2.0\Imath\ImathColorAlgo.cpp">
+      <Filter>ILM</Filter>
+    </ClCompile>
+    <ClCompile Include="ilmbase-2.2.0\Imath\ImathFun.cpp">
+      <Filter>ILM</Filter>
+    </ClCompile>
+    <ClCompile Include="ilmbase-2.2.0\Imath\ImathMatrixAlgo.cpp">
+      <Filter>ILM</Filter>
+    </ClCompile>
+    <ClCompile Include="ilmbase-2.2.0\Imath\ImathRandom.cpp">
+      <Filter>ILM</Filter>
+    </ClCompile>
+    <ClCompile Include="ilmbase-2.2.0\Imath\ImathShear.cpp">
+      <Filter>ILM</Filter>
+    </ClCompile>
+    <ClCompile Include="ilmbase-2.2.0\Imath\ImathVec.cpp">
+      <Filter>ILM</Filter>
+    </ClCompile>
+    <ClCompile Include="ilmbase-2.2.0\HalfTest\main.cpp">
+      <Filter>ILM</Filter>
+    </ClCompile>
+    <ClCompile Include="ilmbase-2.2.0\IexTest\main.cpp">
+      <Filter>ILM</Filter>
+    </ClCompile>
+    <ClCompile Include="ilmbase-2.2.0\ImathTest\main.cpp">
+      <Filter>ILM</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.c">
+      <Filter>ILM</Filter>
+    </ClCompile>
+    <ClCompile Include="ilmbase-2.2.0\HalfTest\testArithmetic.cpp">
+      <Filter>ILM</Filter>
+    </ClCompile>
+    <ClCompile Include="ilmbase-2.2.0\IexTest\testBaseExc.cpp">
+      <Filter>ILM</Filter>
+    </ClCompile>
+    <ClCompile Include="ilmbase-2.2.0\HalfTest\testBitPatterns.cpp">
+      <Filter>ILM</Filter>
+    </ClCompile>
+    <ClCompile Include="ilmbase-2.2.0\ImathTest\testBox.cpp">
+      <Filter>ILM</Filter>
+    </ClCompile>
+    <ClCompile Include="ilmbase-2.2.0\ImathTest\testBoxAlgo.cpp">
+      <Filter>ILM</Filter>
+    </ClCompile>
+    <ClCompile Include="ilmbase-2.2.0\HalfTest\testClassification.cpp">
+      <Filter>ILM</Filter>
+    </ClCompile>
+    <ClCompile Include="ilmbase-2.2.0\ImathTest\testColor.cpp">
+      <Filter>ILM</Filter>
+    </ClCompile>
+    <ClCompile Include="ilmbase-2.2.0\HalfTest\testError.cpp">
+      <Filter>ILM</Filter>
+    </ClCompile>
+    <ClCompile Include="ilmbase-2.2.0\ImathTest\testExtractEuler.cpp">
+      <Filter>ILM</Filter>
+    </ClCompile>
+    <ClCompile Include="ilmbase-2.2.0\ImathTest\testExtractSHRT.cpp">
+      <Filter>ILM</Filter>
+    </ClCompile>
+    <ClCompile Include="ilmbase-2.2.0\ImathTest\testFrustum.cpp">
+      <Filter>ILM</Filter>
+    </ClCompile>
+    <ClCompile Include="ilmbase-2.2.0\ImathTest\testFrustumTest.cpp">
+      <Filter>ILM</Filter>
+    </ClCompile>
+    <ClCompile Include="ilmbase-2.2.0\ImathTest\testFun.cpp">
+      <Filter>ILM</Filter>
+    </ClCompile>
+    <ClCompile Include="ilmbase-2.2.0\HalfTest\testFunction.cpp">
+      <Filter>ILM</Filter>
+    </ClCompile>
+    <ClCompile Include="ilmbase-2.2.0\ImathTest\testInvert.cpp">
+      <Filter>ILM</Filter>
+    </ClCompile>
+    <ClCompile Include="ilmbase-2.2.0\ImathTest\testJacobiEigenSolver.cpp">
+      <Filter>ILM</Filter>
+    </ClCompile>
+    <ClCompile Include="ilmbase-2.2.0\HalfTest\testLimits.cpp">
+      <Filter>ILM</Filter>
+    </ClCompile>
+    <ClCompile Include="ilmbase-2.2.0\ImathTest\testLineAlgo.cpp">
+      <Filter>ILM</Filter>
+    </ClCompile>
+    <ClCompile Include="ilmbase-2.2.0\ImathTest\testMatrix.cpp">
+      <Filter>ILM</Filter>
+    </ClCompile>
+    <ClCompile Include="ilmbase-2.2.0\ImathTest\testMiscMatrixAlgo.cpp">
+      <Filter>ILM</Filter>
+    </ClCompile>
+    <ClCompile Include="ilmbase-2.2.0\ImathTest\testProcrustes.cpp">
+      <Filter>ILM</Filter>
+    </ClCompile>
+    <ClCompile Include="ilmbase-2.2.0\ImathTest\testQuat.cpp">
+      <Filter>ILM</Filter>
+    </ClCompile>
+    <ClCompile Include="ilmbase-2.2.0\ImathTest\testQuatSetRotation.cpp">
+      <Filter>ILM</Filter>
+    </ClCompile>
+    <ClCompile Include="ilmbase-2.2.0\ImathTest\testQuatSlerp.cpp">
+      <Filter>ILM</Filter>
+    </ClCompile>
+    <ClCompile Include="ilmbase-2.2.0\ImathTest\testRandom.cpp">
+      <Filter>ILM</Filter>
+    </ClCompile>
+    <ClCompile Include="ilmbase-2.2.0\ImathTest\testRoots.cpp">
+      <Filter>ILM</Filter>
+    </ClCompile>
+    <ClCompile Include="ilmbase-2.2.0\ImathTest\testShear.cpp">
+      <Filter>ILM</Filter>
+    </ClCompile>
+    <ClCompile Include="ilmbase-2.2.0\HalfTest\testSize.cpp">
+      <Filter>ILM</Filter>
+    </ClCompile>
+    <ClCompile Include="ilmbase-2.2.0\ImathTest\testTinySVD.cpp">
+      <Filter>ILM</Filter>
+    </ClCompile>
+    <ClCompile Include="ilmbase-2.2.0\ImathTest\testVec.cpp">
+      <Filter>ILM</Filter>
+    </ClCompile>
+    <ClCompile Include="ilmbase-2.2.0\Half\toFloat.cpp">
+      <Filter>ILM</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>cwc\source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="freeglut\source\freeglutdll.def">
+      <Filter>freeglut\source</Filter>
+    </None>
+  </ItemGroup>
+</Project>

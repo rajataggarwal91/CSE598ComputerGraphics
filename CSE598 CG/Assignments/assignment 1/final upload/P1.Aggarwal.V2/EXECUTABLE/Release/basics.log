@@ -1,0 +1,11 @@
+﻿Build started 8/28/2014 5:30:50 PM.
+     1>Project "E:\1st semester ASU\cse598 computer graphics\assignment 1 in progress\final upload\P1.Aggarwal.V2\P1.Aggarwal.V2.SourceCode\basics.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Release\basics.exe" /INCREMENTAL:NO /NOLOGO odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\Release\basics.pdb" /MAP /MAPINFO:EXPORTS /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Release\basics.lib" /MACHINE:X86 /SAFESEH .\Release\basics.obj
+         .\Release\stb_image.obj
+         basics.vcxproj -> E:\1st semester ASU\cse598 computer graphics\assignment 1 in progress\final upload\P1.Aggarwal.V2\P1.Aggarwal.V2.SourceCode\.\Release\basics.exe
+     1>Done Building Project "E:\1st semester ASU\cse598 computer graphics\assignment 1 in progress\final upload\P1.Aggarwal.V2\P1.Aggarwal.V2.SourceCode\basics.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.54

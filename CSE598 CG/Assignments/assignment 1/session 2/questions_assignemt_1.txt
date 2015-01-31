@@ -1,0 +1,8 @@
+Questions : 
+What are the situations when display() function runs, I can see that it executes continuously in loop.
+To extend the first question, why does opengl continuously call display() when it is a static state machine?
+I am unable to call function loadPNG from display(), dont know why exactly that is. Says loadPNG : redefinition different data types. SO created a new function bgimage()
+If I remove the only call to loadPNG available it throws memory violation exception. Not sure why?
+why is the image made inverted?
+
+http://stackoverflow.com/questions/15736497/print-unsigned-char-in-c  --- format specifier

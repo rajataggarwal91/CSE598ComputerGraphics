@@ -1,0 +1,43 @@
+//referred https://www.youtube.com/watch?v=FDORpKHDuMQ for programming. 
+varying vec3 N;
+varying vec3 v;
+//varying vec2 texcoord;
+//in vec4 position;
+//uniform vec3 lightpos; 
+varying vec3 tangentSurface2light;
+varying vec3 tangentSurface2view;
+
+void main(void)
+{
+
+   //Transform the vertex position
+   v = vec3(gl_ModelViewMatrix * gl_Vertex);       
+
+   //Transform the normal vector
+   N = normalize(gl_NormalMatrix * gl_Normal);
+
+   //Get the texture coordinate
+   gl_TexCoord[0] = gl_MultiTexCoord0;
+ //  texcoord=gl_MultiTexCoord0.xy;
+   //Set the position with respect to the screen
+   gl_Position = gl_ModelViewProjectionMatrix * gl_Vertex;
+
+
+vec3 tangent;
+vec3 v1 = cross(gl_Normal,vec3(0.0,0.0,-1.0));
+vec3 v2 = cross(gl_Normal,vec3(0.0,-1.0,1.0));
+
+if(length(v1)>length(v2))
+tangent = v1;
+else
+tangent = v2;
+
+vec3 n = normalize(gl_NormalMatrix * gl_Normal);
+vec3 t = normalize(gl_NormalMatrix * gl_Normal);
+vec3 b=cross(n,t);
+
+mat3 mat = mat3(t.x,b.x,n.x,t.y,b.y,n.y,t.z,b.z,n.z);
+tangentSurface2light = normalize(gl_LightSource[0].position.xyz-v);
+vec3 vector = normalize(-v);
+ tangentSurface2view = mat * vector;
+}

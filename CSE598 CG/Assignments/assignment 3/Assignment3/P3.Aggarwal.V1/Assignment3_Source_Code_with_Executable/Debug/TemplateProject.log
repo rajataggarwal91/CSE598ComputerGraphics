@@ -1,0 +1,78 @@
+﻿Build started 11/6/2014 7:09:22 AM.
+     1>Project "C:\Users\Rajat\Desktop\CSE598 CG\Assignments\assignment 3\Assignment3\Assignment3 - Solving3 - present\Assignment3\TemplateProject.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Rajat\Desktop\CSE598 CG\Assignments\assignment 3\Assignment3\Assignment3 - Solving3 - present\Assignment3\ilmbase-2.2.0" /I"C:\Users\Rajat\Desktop\CSE598 CG\Assignments\assignment 3\Assignment3\Assignment3 - Solving3 - present\Assignment3\ilmbase-2.2.0\config" /I"C:\Users\Rajat\Desktop\CSE598 CG\Assignments\assignment 3\Assignment3\Assignment3 - Solving3 - present\Assignment3\ilmbase-2.2.0\Imath" /I"C:\Users\Rajat\Desktop\CSE598 CG\Assignments\assignment 3\Assignment3\Assignment3 - Solving2\Assignment3\ilmbase-2.2.0" /Ifreeglut/include /Iglew/include /Icwc/include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D FREEGLUT_STATIC /D GLEW_STATIC /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving3 - present\assignment3\main.cpp(25): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving3 - present\assignment3\main.cpp(26): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving3 - present\assignment3\main.cpp(27): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving3 - present\assignment3\main.cpp(31): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving3 - present\assignment3\main.cpp(32): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving3 - present\assignment3\main.cpp(33): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving3 - present\assignment3\main.cpp(37): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving3 - present\assignment3\main.cpp(38): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving3 - present\assignment3\main.cpp(39): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving3 - present\assignment3\main.cpp(43): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving3 - present\assignment3\main.cpp(44): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving3 - present\assignment3\main.cpp(45): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving3 - present\assignment3\main.cpp(49): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving3 - present\assignment3\main.cpp(50): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving3 - present\assignment3\main.cpp(51): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving3 - present\assignment3\main.cpp(55): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving3 - present\assignment3\main.cpp(56): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving3 - present\assignment3\main.cpp(57): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving3 - present\assignment3\main.cpp(61): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving3 - present\assignment3\main.cpp(62): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving3 - present\assignment3\main.cpp(63): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving3 - present\assignment3\main.cpp(130): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving3 - present\assignment3\main.cpp(196): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving3 - present\assignment3\main.cpp(204): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving3 - present\assignment3\main.cpp(212): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving3 - present\assignment3\main.cpp(477): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving3 - present\assignment3\main.cpp(478): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving3 - present\assignment3\main.cpp(621): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving3 - present\assignment3\main.cpp(622): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving3 - present\assignment3\main.cpp(623): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving3 - present\assignment3\main.cpp(624): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving3 - present\assignment3\main.cpp(628): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving3 - present\assignment3\main.cpp(629): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving3 - present\assignment3\main.cpp(630): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving3 - present\assignment3\main.cpp(631): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\rajat\desktop\cse598 cg\assignments\assignment 3\assignment3\assignment3 - solving3 - present\assignment3\main.cpp(413): warning C4700: uninitialized local variable 'NormalMapTextureID' used
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Debug\TemplateProject.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"Debug\TemplateProject.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Debug\TemplateProject.lib" /MACHINE:X86 /SAFESEH Debug\glew.obj
+         Debug\freeglut_callbacks.obj
+         Debug\freeglut_cursor.obj
+         Debug\freeglut_display.obj
+         Debug\freeglut_ext.obj
+         Debug\freeglut_font.obj
+         Debug\freeglut_font_data.obj
+         Debug\freeglut_gamemode.obj
+         Debug\freeglut_geometry.obj
+         Debug\freeglut_glutfont_definitions.obj
+         Debug\freeglut_init.obj
+         Debug\freeglut_joystick.obj
+         Debug\freeglut_main.obj
+         Debug\freeglut_menu.obj
+         Debug\freeglut_misc.obj
+         Debug\freeglut_overlay.obj
+         Debug\freeglut_state.obj
+         Debug\freeglut_stroke_mono_roman.obj
+         Debug\freeglut_stroke_roman.obj
+         Debug\freeglut_structure.obj
+         Debug\freeglut_teapot.obj
+         Debug\freeglut_videoresize.obj
+         Debug\freeglut_window.obj
+         Debug\glApplication.obj
+         Debug\glsl.obj
+         Debug\glutwindow.obj
+         Debug\glWindow.obj
+         Debug\main.obj
+         Debug\stb_image.obj
+     1>glew.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+         TemplateProject.vcxproj -> C:\Users\Rajat\Desktop\CSE598 CG\Assignments\assignment 3\Assignment3\Assignment3 - Solving3 - present\Assignment3\Debug\TemplateProject.exe
+     1>Done Building Project "C:\Users\Rajat\Desktop\CSE598 CG\Assignments\assignment 3\Assignment3\Assignment3 - Solving3 - present\Assignment3\TemplateProject.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.95

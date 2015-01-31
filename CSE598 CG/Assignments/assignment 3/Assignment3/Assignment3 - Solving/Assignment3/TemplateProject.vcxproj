@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9B0AA7AC-D20A-47E9-B7D8-82AFD63BDD92}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Debug\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Release\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>C:\Users\Rajat\Desktop\CSE598 CG\Assignments\assignment 3\Assignment3\Assignment3 - Solving\Assignment3\ilmbase-2.2.0;C:\Users\Rajat\Desktop\CSE598 CG\Assignments\assignment 3\Assignment3\Assignment3 - Solving\Assignment3\ilmbase-2.2.0\Imath;freeglut/include;glew/include;cwc/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;FREEGLUT_STATIC;GLEW_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <OutputFile>$(OutDir)TemplateProject.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)TemplateProject.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>freeglut/include;glew/include;cwc/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;FREEGLUT_STATIC;GLEW_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <OutputFile>$(OutDir)TemplateProject.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="glew\include\Gl\glew.h" />
+    <ClInclude Include="glew\include\Gl\glxew.h" />
+    <ClInclude Include="glew\include\Gl\wglew.h" />
+    <ClInclude Include="freeglut\include\Gl\freeglut.h" />
+    <ClInclude Include="freeglut\include\Gl\freeglut_ext.h" />
+    <ClInclude Include="freeglut\include\Gl\freeglut_std.h" />
+    <ClInclude Include="freeglut\include\Gl\glut.h" />
+    <ClInclude Include="freeglut\source\freeglut_internal.h" />
+    <ClInclude Include="freeglut\source\freeglut_teapot_data.h" />
+    <ClInclude Include="cwc\include\glApplication.h" />
+    <ClInclude Include="cwc\include\glsl.h" />
+    <ClInclude Include="cwc\include\glutwindow.h" />
+    <ClInclude Include="cwc\include\glWindow.h" />
+    <ClInclude Include="ilmbase-2.2.0\config.windows\IlmBaseConfig.h" />
+    <ClInclude Include="ilmbase-2.2.0\config\IlmBaseConfig.h" />
+    <ClInclude Include="ilmbase-2.2.0\HalfTest\testArithmetic.h" />
+    <ClInclude Include="ilmbase-2.2.0\HalfTest\testBitPatterns.h" />
+    <ClInclude Include="ilmbase-2.2.0\HalfTest\testClassification.h" />
+    <ClInclude Include="ilmbase-2.2.0\HalfTest\testError.h" />
+    <ClInclude Include="ilmbase-2.2.0\HalfTest\testFunction.h" />
+    <ClInclude Include="ilmbase-2.2.0\HalfTest\testLimits.h" />
+    <ClInclude Include="ilmbase-2.2.0\HalfTest\testSize.h" />
+    <ClInclude Include="ilmbase-2.2.0\Half\half.h" />
+    <ClInclude Include="ilmbase-2.2.0\Half\halfExport.h" />
+    <ClInclude Include="ilmbase-2.2.0\Half\halfFunction.h" />
+    <ClInclude Include="ilmbase-2.2.0\Half\halfLimits.h" />
+    <ClInclude Include="ilmbase-2.2.0\IexMath\IexMathFloatExc.h" />
+    <ClInclude Include="ilmbase-2.2.0\IexMath\IexMathFpu.h" />
+    <ClInclude Include="ilmbase-2.2.0\IexMath\IexMathIeeeExc.h" />
+    <ClInclude Include="ilmbase-2.2.0\IexTest\testBaseExc.h" />
+    <ClInclude Include="ilmbase-2.2.0\Iex\Iex.h" />
+    <ClInclude Include="ilmbase-2.2.0\Iex\IexBaseExc.h" />
+    <ClInclude Include="ilmbase-2.2.0\Iex\IexErrnoExc.h" />
+    <ClInclude Include="ilmbase-2.2.0\Iex\IexExport.h" />
+    <ClInclude Include="ilmbase-2.2.0\Iex\IexForward.h" />
+    <ClInclude Include="ilmbase-2.2.0\Iex\IexMacros.h" />
+    <ClInclude Include="ilmbase-2.2.0\Iex\IexMathExc.h" />
+    <ClInclude Include="ilmbase-2.2.0\Iex\IexNamespace.h" />
+    <ClInclude Include="ilmbase-2.2.0\Iex\IexThrowErrnoExc.h" />
+    <ClInclude Include="ilmbase-2.2.0\IlmThread\IlmThread.h" />
+    <ClInclude Include="ilmbase-2.2.0\IlmThread\IlmThreadExport.h" />
+    <ClInclude Include="ilmbase-2.2.0\IlmThread\IlmThreadForward.h" />
+    <ClInclude Include="ilmbase-2.2.0\IlmThread\IlmThreadMutex.h" />
+    <ClInclude Include="ilmbase-2.2.0\IlmThread\IlmThreadNamespace.h" />
+    <ClInclude Include="ilmbase-2.2.0\IlmThread\IlmThreadPool.h" />
+    <ClInclude Include="ilmbase-2.2.0\IlmThread\IlmThreadSemaphore.h" />
+    <ClInclude Include="ilmbase-2.2.0\ImathTest\testBox.h" />
+    <ClInclude Include="ilmbase-2.2.0\ImathTest\testBoxAlgo.h" />
+    <ClInclude Include="ilmbase-2.2.0\ImathTest\testColor.h" />
+    <ClInclude Include="ilmbase-2.2.0\ImathTest\testExtractEuler.h" />
+    <ClInclude Include="ilmbase-2.2.0\ImathTest\testExtractSHRT.h" />
+    <ClInclude Include="ilmbase-2.2.0\ImathTest\testFrustum.h" />
+    <ClInclude Include="ilmbase-2.2.0\ImathTest\testFrustumTest.h" />
+    <ClInclude Include="ilmbase-2.2.0\ImathTest\testFun.h" />
+    <ClInclude Include="ilmbase-2.2.0\ImathTest\testInvert.h" />
+    <ClInclude Include="ilmbase-2.2.0\ImathTest\testJacobiEigenSolver.h" />
+    <ClInclude Include="ilmbase-2.2.0\ImathTest\testLineAlgo.h" />
+    <ClInclude Include="ilmbase-2.2.0\ImathTest\testMatrix.h" />
+    <ClInclude Include="ilmbase-2.2.0\ImathTest\testMiscMatrixAlgo.h" />
+    <ClInclude Include="ilmbase-2.2.0\ImathTest\testProcrustes.h" />
+    <ClInclude Include="ilmbase-2.2.0\ImathTest\testQuat.h" />
+    <ClInclude Include="ilmbase-2.2.0\ImathTest\testQuatSetRotation.h" />
+    <ClInclude Include="ilmbase-2.2.0\ImathTest\testQuatSlerp.h" />
+    <ClInclude Include="ilmbase-2.2.0\ImathTest\testRandom.h" />
+    <ClInclude Include="ilmbase-2.2.0\ImathTest\testRoots.h" />
+    <ClInclude Include="ilmbase-2.2.0\ImathTest\testShear.h" />
+    <ClInclude Include="ilmbase-2.2.0\ImathTest\testTinySVD.h" />
+    <ClInclude Include="ilmbase-2.2.0\ImathTest\testVec.h" />
+    <ClInclude Include="ilmbase-2.2.0\Imath\ImathBox.h" />
+    <ClInclude Include="ilmbase-2.2.0\Imath\ImathBoxAlgo.h" />
+    <ClInclude Include="ilmbase-2.2.0\Imath\ImathColor.h" />
+    <ClInclude Include="ilmbase-2.2.0\Imath\ImathColorAlgo.h" />
+    <ClInclude Include="ilmbase-2.2.0\Imath\ImathEuler.h" />
+    <ClInclude Include="ilmbase-2.2.0\Imath\ImathExc.h" />
+    <ClInclude Include="ilmbase-2.2.0\Imath\ImathExport.h" />
+    <ClInclude Include="ilmbase-2.2.0\Imath\ImathForward.h" />
+    <ClInclude Include="ilmbase-2.2.0\Imath\ImathFrame.h" />
+    <ClInclude Include="ilmbase-2.2.0\Imath\ImathFrustum.h" />
+    <ClInclude Include="ilmbase-2.2.0\Imath\ImathFrustumTest.h" />
+    <ClInclude Include="ilmbase-2.2.0\Imath\ImathFun.h" />
+    <ClInclude Include="ilmbase-2.2.0\Imath\ImathGL.h" />
+    <ClInclude Include="ilmbase-2.2.0\Imath\ImathGLU.h" />
+    <ClInclude Include="ilmbase-2.2.0\Imath\ImathHalfLimits.h" />
+    <ClInclude Include="ilmbase-2.2.0\Imath\ImathInt64.h" />
+    <ClInclude Include="ilmbase-2.2.0\Imath\ImathInterval.h" />
+    <ClInclude Include="ilmbase-2.2.0\Imath\ImathLimits.h" />
+    <ClInclude Include="ilmbase-2.2.0\Imath\ImathLine.h" />
+    <ClInclude Include="ilmbase-2.2.0\Imath\ImathLineAlgo.h" />
+    <ClInclude Include="ilmbase-2.2.0\Imath\ImathMath.h" />
+    <ClInclude Include="ilmbase-2.2.0\Imath\ImathMatrix.h" />
+    <ClInclude Include="ilmbase-2.2.0\Imath\ImathMatrixAlgo.h" />
+    <ClInclude Include="ilmbase-2.2.0\Imath\ImathNamespace.h" />
+    <ClInclude Include="ilmbase-2.2.0\Imath\ImathPlane.h" />
+    <ClInclude Include="ilmbase-2.2.0\Imath\ImathPlatform.h" />
+    <ClInclude Include="ilmbase-2.2.0\Imath\ImathQuat.h" />
+    <ClInclude Include="ilmbase-2.2.0\Imath\ImathRandom.h" />
+    <ClInclude Include="ilmbase-2.2.0\Imath\ImathRoots.h" />
+    <ClInclude Include="ilmbase-2.2.0\Imath\ImathShear.h" />
+    <ClInclude Include="ilmbase-2.2.0\Imath\ImathSphere.h" />
+    <ClInclude Include="ilmbase-2.2.0\Imath\ImathVec.h" />
+    <ClInclude Include="ilmbase-2.2.0\Imath\ImathVecAlgo.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="glew\source\glew.c" />
+    <ClCompile Include="freeglut\source\freeglut_callbacks.c" />
+    <ClCompile Include="freeglut\source\freeglut_cursor.c" />
+    <ClCompile Include="freeglut\source\freeglut_display.c" />
+    <ClCompile Include="freeglut\source\freeglut_ext.c" />
+    <ClCompile Include="freeglut\source\freeglut_font.c" />
+    <ClCompile Include="freeglut\source\freeglut_font_data.c" />
+    <ClCompile Include="freeglut\source\freeglut_gamemode.c" />
+    <ClCompile Include="freeglut\source\freeglut_geometry.c" />
+    <ClCompile Include="freeglut\source\freeglut_glutfont_definitions.c" />
+    <ClCompile Include="freeglut\source\freeglut_init.c" />
+    <ClCompile Include="freeglut\source\freeglut_joystick.c" />
+    <ClCompile Include="freeglut\source\freeglut_main.c" />
+    <ClCompile Include="freeglut\source\freeglut_menu.c" />
+    <ClCompile Include="freeglut\source\freeglut_misc.c" />
+    <ClCompile Include="freeglut\source\freeglut_overlay.c" />
+    <ClCompile Include="freeglut\source\freeglut_state.c" />
+    <ClCompile Include="freeglut\source\freeglut_stroke_mono_roman.c" />
+    <ClCompile Include="freeglut\source\freeglut_stroke_roman.c" />
+    <ClCompile Include="freeglut\source\freeglut_structure.c" />
+    <ClCompile Include="freeglut\source\freeglut_teapot.c" />
+    <ClCompile Include="freeglut\source\freeglut_videoresize.c" />
+    <ClCompile Include="freeglut\source\freeglut_window.c" />
+    <ClCompile Include="cwc\source\glApplication.cpp" />
+    <ClCompile Include="cwc\source\glsl.cpp" />
+    <ClCompile Include="cwc\source\glutwindow.cpp" />
+    <ClCompile Include="cwc\source\glWindow.cpp" />
+    <ClCompile Include="ilmbase-2.2.0\HalfTest\main.cpp" />
+    <ClCompile Include="ilmbase-2.2.0\HalfTest\testArithmetic.cpp" />
+    <ClCompile Include="ilmbase-2.2.0\HalfTest\testBitPatterns.cpp" />
+    <ClCompile Include="ilmbase-2.2.0\HalfTest\testClassification.cpp" />
+    <ClCompile Include="ilmbase-2.2.0\HalfTest\testError.cpp" />
+    <ClCompile Include="ilmbase-2.2.0\HalfTest\testFunction.cpp" />
+    <ClCompile Include="ilmbase-2.2.0\HalfTest\testLimits.cpp" />
+    <ClCompile Include="ilmbase-2.2.0\HalfTest\testSize.cpp" />
+    <ClCompile Include="ilmbase-2.2.0\Half\eLut.cpp" />
+    <ClCompile Include="ilmbase-2.2.0\Half\half.cpp" />
+    <ClCompile Include="ilmbase-2.2.0\Half\toFloat.cpp" />
+    <ClCompile Include="ilmbase-2.2.0\IexMath\IexMathFloatExc.cpp" />
+    <ClCompile Include="ilmbase-2.2.0\IexMath\IexMathFpu.cpp" />
+    <ClCompile Include="ilmbase-2.2.0\IexTest\main.cpp" />
+    <ClCompile Include="ilmbase-2.2.0\IexTest\testBaseExc.cpp" />
+    <ClCompile Include="ilmbase-2.2.0\Iex\IexBaseExc.cpp" />
+    <ClCompile Include="ilmbase-2.2.0\Iex\IexThrowErrnoExc.cpp" />
+    <ClCompile Include="ilmbase-2.2.0\IlmThread\IlmThread.cpp" />
+    <ClCompile Include="ilmbase-2.2.0\IlmThread\IlmThreadMutex.cpp" />
+    <ClCompile Include="ilmbase-2.2.0\IlmThread\IlmThreadMutexPosix.cpp" />
+    <ClCompile Include="ilmbase-2.2.0\IlmThread\IlmThreadMutexWin32.cpp" />
+    <ClCompile Include="ilmbase-2.2.0\IlmThread\IlmThreadPool.cpp" />
+    <ClCompile Include="ilmbase-2.2.0\IlmThread\IlmThreadPosix.cpp" />
+    <ClCompile Include="ilmbase-2.2.0\IlmThread\IlmThreadSemaphore.cpp" />
+    <ClCompile Include="ilmbase-2.2.0\IlmThread\IlmThreadSemaphorePosix.cpp" />
+    <ClCompile Include="ilmbase-2.2.0\IlmThread\IlmThreadSemaphorePosixCompat.cpp" />
+    <ClCompile Include="ilmbase-2.2.0\IlmThread\IlmThreadSemaphoreWin32.cpp" />
+    <ClCompile Include="ilmbase-2.2.0\IlmThread\IlmThreadWin32.cpp" />
+    <ClCompile Include="ilmbase-2.2.0\ImathTest\main.cpp" />
+    <ClCompile Include="ilmbase-2.2.0\ImathTest\testBox.cpp" />
+    <ClCompile Include="ilmbase-2.2.0\ImathTest\testBoxAlgo.cpp" />
+    <ClCompile Include="ilmbase-2.2.0\ImathTest\testColor.cpp" />
+    <ClCompile Include="ilmbase-2.2.0\ImathTest\testExtractEuler.cpp" />
+    <ClCompile Include="ilmbase-2.2.0\ImathTest\testExtractSHRT.cpp" />
+    <ClCompile Include="ilmbase-2.2.0\ImathTest\testFrustum.cpp" />
+    <ClCompile Include="ilmbase-2.2.0\ImathTest\testFrustumTest.cpp" />
+    <ClCompile Include="ilmbase-2.2.0\ImathTest\testFun.cpp" />
+    <ClCompile Include="ilmbase-2.2.0\ImathTest\testInvert.cpp" />
+    <ClCompile Include="ilmbase-2.2.0\ImathTest\testJacobiEigenSolver.cpp" />
+    <ClCompile Include="ilmbase-2.2.0\ImathTest\testLineAlgo.cpp" />
+    <ClCompile Include="ilmbase-2.2.0\ImathTest\testMatrix.cpp" />
+    <ClCompile Include="ilmbase-2.2.0\ImathTest\testMiscMatrixAlgo.cpp" />
+    <ClCompile Include="ilmbase-2.2.0\ImathTest\testProcrustes.cpp" />
+    <ClCompile Include="ilmbase-2.2.0\ImathTest\testQuat.cpp" />
+    <ClCompile Include="ilmbase-2.2.0\ImathTest\testQuatSetRotation.cpp" />
+    <ClCompile Include="ilmbase-2.2.0\ImathTest\testQuatSlerp.cpp" />
+    <ClCompile Include="ilmbase-2.2.0\ImathTest\testRandom.cpp" />
+    <ClCompile Include="ilmbase-2.2.0\ImathTest\testRoots.cpp" />
+    <ClCompile Include="ilmbase-2.2.0\ImathTest\testShear.cpp" />
+    <ClCompile Include="ilmbase-2.2.0\ImathTest\testTinySVD.cpp" />
+    <ClCompile Include="ilmbase-2.2.0\ImathTest\testVec.cpp" />
+    <ClCompile Include="ilmbase-2.2.0\Imath\ImathBox.cpp" />
+    <ClCompile Include="ilmbase-2.2.0\Imath\ImathColorAlgo.cpp" />
+    <ClCompile Include="ilmbase-2.2.0\Imath\ImathFun.cpp" />
+    <ClCompile Include="ilmbase-2.2.0\Imath\ImathMatrixAlgo.cpp" />
+    <ClCompile Include="ilmbase-2.2.0\Imath\ImathRandom.cpp" />
+    <ClCompile Include="ilmbase-2.2.0\Imath\ImathShear.cpp" />
+    <ClCompile Include="ilmbase-2.2.0\Imath\ImathVec.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="stb_image.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="freeglut\source\freeglutdll.def" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

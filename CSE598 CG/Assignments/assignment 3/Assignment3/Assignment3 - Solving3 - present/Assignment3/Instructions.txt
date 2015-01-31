@@ -1,0 +1,41 @@
+1. Create a ground plane :
+Plane was created using triangle strip. glTexCoord2f and glNormal3f provided for each vertex.
+Lighting was enabled in fragmentshader.
+
+2. Snowmen were created using hierarchial structures. 1st snowman gets material properties whereas second gets my face picture on its head.
+BY default all other textures are disabled.
+
+3. For snowman1, material properties were provided. This is seen in default scene 1.
+
+4. MY face picture was wrapped on the second snowman head sphere after a new texture was created and applied to the head.
+To have it on both the sides, a new vector was used which had s'=2s. This new vector was drawn over sphere.
+
+5. Render the ground plane and Snowman 2 body and hat  :
+You can see this effect after pressing key 4.
+Two textures, one for ground and other for hat and body were created. Procedure in fragmentshader decided when to color with what color.
+
+6. Set up a perspective projection camera for this assignment
+Initial camera angle is positioned to show perspective projection, this was handled by gluPerspective call.
+
+7. Navigation:
+Use W,S to move forward and back and A,D to see left/right.
+It is basically changing xcenter,zcenter,eyex,eyez 
+
+8. Perlin noise:
+Use right click to select Texture->Perlin. If you have trouble selecting it, right click and move out of menu and then click left click on item.
+This will create a procedural texture (the texture is created in application and passed on to shader). Texture is created using Perlin function that is provided.
+Now in fragmentshader [sin (20*u + 6 * sum(pow(2,-i)*Pnoise()))] is computed, mutiplied with red color to give it some uniformity, squarerooted and the color is passed on as output for screen.
+The output does not completely resemble that of marble, but back side of body is closer to the noises in marble. It was a little difficult to understand what paramteres need to be passed to Perlin2DNoise function.
+
+9. Bump mapping:
+Use right click to select Lighting->Bump in menu. Bump mapping is basically about changing the normals of the object
+Bump mapping requires changes in normals of objects (in our case hat),we do that by :
+vec3 norm=normalize(texture2D(normalmap,textcoord).rgb*2.0-1.0);
+normalmap is the texture provided to shader which has deformed normals. This is applied on the surface of object we want to create bumps on.
+this new "norm" variable is used instead of our normal "n" normal for all normal lighting operations.
+
+Unfortunately switching to bump mapping would create exceptions, which I was not able to rectify until the project was uploaded.
+
+
+
+

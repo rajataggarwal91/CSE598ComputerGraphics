@@ -1,0 +1,36 @@
+﻿Build started 8/27/2014 6:11:43 PM.
+     1>Project "E:\1st semester ASU\cse598 computer graphics\assignment 1 in progress\session 3 and final\P1.Aggarwal.V1\basics.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt basics.c stb_image.c
+         stb_image.c
+     1>e:\1st semester asu\cse598 computer graphics\assignment 1 in progress\session 3 and final\p1.aggarwal.v1\stb_image.c(559): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>e:\1st semester asu\cse598 computer graphics\assignment 1 in progress\session 3 and final\p1.aggarwal.v1\stb_image.c(626): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>e:\1st semester asu\cse598 computer graphics\assignment 1 in progress\session 3 and final\p1.aggarwal.v1\stb_image.c(664): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>e:\1st semester asu\cse598 computer graphics\assignment 1 in progress\session 3 and final\p1.aggarwal.v1\stb_image.c(4566): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+         basics.c
+     1>e:\1st semester asu\cse598 computer graphics\assignment 1 in progress\session 3 and final\p1.aggarwal.v1\basics.c(165): warning C4013: 'stbi_load' undefined; assuming extern returning int
+     1>e:\1st semester asu\cse598 computer graphics\assignment 1 in progress\session 3 and final\p1.aggarwal.v1\basics.c(165): warning C4047: '=' : 'unsigned char *' differs in levels of indirection from 'int'
+     1>e:\1st semester asu\cse598 computer graphics\assignment 1 in progress\session 3 and final\p1.aggarwal.v1\basics.c(226): warning C4047: 'function' : 'char *' differs in levels of indirection from 'unsigned char **'
+     1>e:\1st semester asu\cse598 computer graphics\assignment 1 in progress\session 3 and final\p1.aggarwal.v1\basics.c(226): warning C4024: 'flipImag' : different types for formal and actual parameter 1
+     1>e:\1st semester asu\cse598 computer graphics\assignment 1 in progress\session 3 and final\p1.aggarwal.v1\basics.c(226): warning C4047: 'function' : 'char *' differs in levels of indirection from 'char **'
+     1>e:\1st semester asu\cse598 computer graphics\assignment 1 in progress\session 3 and final\p1.aggarwal.v1\basics.c(226): warning C4024: 'flipImag' : different types for formal and actual parameter 2
+     1>e:\1st semester asu\cse598 computer graphics\assignment 1 in progress\session 3 and final\p1.aggarwal.v1\basics.c(265): warning C4047: '=' : 'char *' differs in levels of indirection from 'char'
+     1>e:\1st semester asu\cse598 computer graphics\assignment 1 in progress\session 3 and final\p1.aggarwal.v1\basics.c(266): warning C4047: '=' : 'char *' differs in levels of indirection from 'char'
+     1>e:\1st semester asu\cse598 computer graphics\assignment 1 in progress\session 3 and final\p1.aggarwal.v1\basics.c(267): warning C4047: '=' : 'char *' differs in levels of indirection from 'char'
+     1>e:\1st semester asu\cse598 computer graphics\assignment 1 in progress\session 3 and final\p1.aggarwal.v1\basics.c(329): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void)'
+     1>e:\1st semester asu\cse598 computer graphics\assignment 1 in progress\session 3 and final\p1.aggarwal.v1\basics.c(332): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void)'
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\basics.exe" /INCREMENTAL:NO /NOLOGO odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\Debug\basics.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\basics.lib" /MACHINE:X86 /SAFESEH .\Debug\basics.obj
+         .\Debug\stb_image.obj
+     1>basics.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+         basics.vcxproj -> E:\1st semester ASU\cse598 computer graphics\assignment 1 in progress\session 3 and final\P1.Aggarwal.V1\.\Debug\basics.exe
+     1>Done Building Project "E:\1st semester ASU\cse598 computer graphics\assignment 1 in progress\session 3 and final\P1.Aggarwal.V1\basics.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.35

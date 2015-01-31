@@ -1,0 +1,22 @@
+Assignment 1 instructions and how the task was done:
+1. Create a drawCircle Function : 
+Circle can be drawn by pressing right mouse button and selecting Draw->Circle. As this was a requirement of task 2, this has been not drawn at init()
+glBegin(GL_LINE_LOOP); was used to create an open loop and x and y coordinates were found out using trignometric functions.
+External reference : http://programanddesign.com/cpp/draw-an-unfilled-circle/ - to understand how to create an open loop
+
+2. Draw on the index card :
+Right click on window and select draw and circle or square to draw either of them.
+A submenu was added "Draw" with other menu entries "Square" and "Circle". 2 flags drawSquareflag and drawCircleflag were set when option was selected and later the display() function would draw either of them depending on what was selected.
+External references : http://www.lighthouse3d.com/opengl/glut/index.php3?11 - for understanding how to create submenus.
+
+3. Debug helper:
+As both of the images had same resolution, default was kept on imagewidth and imageheight. Depending on what option was selected of menu after pressing right click, the corresponding case would be called and two flags were used "load1" and "loadtest" that would tell which filename should be loaded to variable "image" and then it is rendered in display().
+
+4. Output the color of a pixel on the screen :
+Click on any point in image, RGB values will be printed in console screen.
+First the coordinate of left mouse click was passed to the function that will convert it into (imageheight - y) as the image is flipped when rendered on screen. Then this coordinate was used to check which RGB value lies there.
+
+5. Graduate students - flip images :
+Right click on image and select flip.
+For all the bytes in the entire image width we need to swap topmost and bottommost, second from top and second from bottom pixel, etc. We do that for 3*image width as there are 3*imagewidth bytes per row.
+Once the swapping is done, image is rendered automatically using display().

@@ -1,0 +1,58 @@
+
+varying vec3 N;
+varying vec3 v;    
+uniform sampler2D color_texture;
+
+
+ 
+out vec4 colorOut;
+//Referred https://www.opengl.org/sdk/docs/tutorials/ClockworkCoders/lighting.php for setting up lights.
+void main (void)
+
+{  
+
+
+vec2 texcoor;
+vec4 color1 = {1.0,0.0,0.0,1.0};
+vec4 color2 = {1.0,1.0,1.0,1.0}; 
+//Ross: Here's a hint on how to get the light source position
+   //gl_LightSource[0].position.xyz;   
+
+   //Ross: V is the view direction vector and we are in Eye Coordinates, so EyePos is (0,0,0)  
+
+//calculate normalized directions l,n,v
+vec3 l = normalize(gl_LightSource[0].position.xyz - v);
+vec3 n = normalize(N);
+vec3 v = normalize(v);
+vec3 r = normalize(-reflect(l,n));
+vec3 e= normalize(-v);
+
+//vec3 r = (2 * dot(l,n) * n );
+
+ 
+   //calculate Ambient Term:  
+   vec4 Ia =gl_FrontLightProduct[0].ambient;
+
+   //calculate Diffuse Term:  
+    vec4 Id =   gl_FrontLightProduct[0].diffuse * max(dot(l,n),0.0);
+    
+   
+  //calculate Specular Term:
+   vec4 Is =  gl_FrontLightProduct[0].specular * pow(max(dot(r,e),0.0),gl_FrontMaterial.shininess);
+   
+   
+  // write Total Color:  
+   //colorOut = Ia+Id+Is;
+   //Ross: If I want to sample my texture, I need to sample it at the (s,t) coordinate of my texture coordinate
+	 
+          texture2D(color_texture, gl_TexCoord[0].st);  
+
+   //Ross: Generic color output is now making all geometry blue
+    //colorOut = texture2D(color_texture, gl_TexCoord[0].st );
+texcoor = gl_TexCoord[0].st;
+texcoor.s =texcoor.s * 2;
+
+ colorOut = texture2D(color_texture, texcoor.st);
+	
+
+}

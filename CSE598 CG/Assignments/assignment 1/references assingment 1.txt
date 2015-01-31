@@ -1,0 +1,2 @@
+http://programanddesign.com/cpp/draw-an-unfilled-circle/ - got here for creating open loop
+http://www.lighthouse3d.com/opengl/glut/index.php3?11 - creating submenus

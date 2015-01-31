@@ -1,0 +1,40 @@
+Assignment 2 instructions and how the task was done:
+1&2 - done
+
+3. Finish the renderstick function
+Used renderstick to initialize tree hierarchy.
+
+4. Draw many stickman
+Click on screen anywhere inside window to draw upto 3 stickman. first one gets erased if you draw 4th one and so on.
+2 queues stores coordinates of clickx and clicky and stickman is rendered at that location by changing viewport location to point of click.
+So each time viewport is changed to location of click and stickman is rendered and the same for second and third stickmen.
+traverse function was used to traverse the tree and correspoding parts function draws parts after scaling translating and rotating.
+
+5. Animate stickman :
+Click on default in menu to see standing stickman move its arms and legs. Click on walking to see him walking in box.
+Total 4 stages were chosen for stickman for complete cycle and these were rendered continuously. 500 ms timer was used to create a cycle of 2 sec.
+Traverse and renderstickman functions where created using 
+Dr. Ross's slides.
+
+6. Fill -on off : 
+Select fill-> on in menu to fill the box with blue color and off to hide the fill.
+First, the borders were found out by traversing up,down,right,left from a given seed point, till we find the first black pixel.
+Now from right and left edges we travelled up and down along the border till we dont have any white pixel while travelling up and down. THis way we found out the corners. Now a fill polygon was drawn connecting these borders.
+
+7 & 8. 
+Clicking on default makes a standing stickman which moves its arms and legs according to defined angled at every time period.
+Clicking on walking will make stickman pace up and down in card from left to right corner and back.
+First the stickman was translated to left bottom corner of box, scaled to height of box and shifted up so that it walks on its legs on lower border.
+Then axes were rotated to align it to lower border using coordinates of border.
+Then length of the total travel on border was calculated (= length) and when distance travelled by stickman became equal to 'length', coordinate axes was reflected around x axes from [-1,1] to [1,-1]. Stickman was translated 4d distance on the negative side and redrawn and the small distance increment for stickman's movement continues till it reaches 2d, where everything is reset back to original.
+
+ 
+Assumptions :
+1. Orientation of image 1 and image 2 is known.
+2. Seed value can be provided manually.
+
+Some known limitations in program :
+1. Stickman does not walk exactly over border as there is a slight border detection issue at lower right corner due to a little angled shot of index card. 
+2. Stickman does not stop exactly at the border of the box, this is because the origin is at stickman's torso. It is definitely possible to limit stickman before walls, but it started creating problems with second image as it was made on another scale. Leaving this as defect due to shortage of time.
+3. Stickman parts are defined only with 4 stages and not based on time, again to keep things simple and working in limited time.
+4. Stickman walks in a little bit awkward manner because it does not move forward enough in each cycle [kept this to ensure better visibility and low speed]. So the forward legs also slide backwards (which does not happen in reality). Reducing time delay to 100 ms can smoothen the movement.
